@@ -1,0 +1,21 @@
+html, body {
+  margin: auto;
+  padding: 0;
+  width: 500px;
+}
+
+canvas {
+  display: block;
+}
+
+embed, body, img {
+  width: 500px;
+}
+
+embed {
+  height: 220px;
+}
+
+knowns1{
+  margin: auto;
+}
