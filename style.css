@@ -1,21 +1,14 @@
 html, body {
   margin: auto;
   padding: auto;
-  width: 500px;
+  width: 700px;
 }
 
 canvas {
   display: block;
+  padding: auto;
 }
 
-embed, body, img {
-  width: 500px;
-}
-
-embed {
-  height: 220px;
-}
-
-knowns1{
-  margin: auto;
+body, img {
+  width: 700px;
 }
