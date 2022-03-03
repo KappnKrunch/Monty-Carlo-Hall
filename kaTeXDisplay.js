@@ -52,7 +52,7 @@ function renderBayesIdenties()
 function renderBayesValues()
 {
   
-  let h1 = "\\frac{P(D|H_1)P(H_1)}{P(D)} = \\frac{\\frac{1}{2} * \\frac{1}{3}}{\\frac{1}{2}}  = \\frac{1}{3} \\newline ";
+  let h1 = "\\frac{P(D|H_1)P(H_1)}{P(D)} = \\frac{\\frac{1}{2} * \\frac{1}{3}}{\\frac{1}{2}}  = \\frac{1}{3} \\newline \\newline ";
   let h2 = "\\frac{P(D|H_2)P(H_2)}{P(D)} = \\frac{1 * \\frac{1}{3}}{\\frac{1}{2}}  = \\frac{2}{3} \\newline ";
   let h3 = "\\frac{P(D|H_3)P(H_3)}{P(D)}  = \\frac{0 * \\frac{1}{3}}{\\frac{1}{2}}  = 0";
   
