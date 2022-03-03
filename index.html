@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Monty Carlo Hall</title>
+    <!-- p5 stuff for simulation -->
+    <script src="p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- KaTex plugins for math equations -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer="" src="katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer="" src="auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    
+    <script src="montyHallSim.js"></script>
+    <script src="histogram.js"></script>
+    <script src="sketch.js"></script>
+    <script src="kaTeXDisplay.js"></script>
+    <meta charset="utf-8">
+  </head>
+  
+  <body><head2>The Monty Hall Problem</head2>
+  
+    <img src="https://jayvas.com/wp-content/uploads/2021/04/monty-hall-problem.png" alt="Let us make a deal.">
+    <p>The Monty Hall Problem is a well known statistical thought experiemnt made popular by the game show 'let's make a deal' and it's host Monty Hall. The problem states that there are three doors. Behind one there is a prize and behind the other two there is nothing of interest. You are first given a choice of the the three doors. After selecting one, Monty reveals a door you haven't selected and shows you it doesn't have the prize. You are then given the choice to choose the remaining door or stay with the one you picked. <br>  <br/> 
+        Which is the better option and what is the probability?</p>
+    <p>We can assume that we will have the same prbability regardless of which door we choose initially. For this reason we will say that we have choosen door #1. We label the case where the car is behind door n as Hn, and call D the case where monty opens door #3 and offers a switch to door #2.</p>
+    <div id="knowns1"></div>
+    <div id="knowns2"></div>
+    <br>
+      <div id="unknowns"></div>
+      <p>We're looking for the likliehood that the car is behind door #n given that we selected the first door, monty opened door #3, and we were offered a switch to door #2.</p>
+    <br>
+    <div id="bayes-identities"></div>
+    <br><div id="bayes-values"></div><br>
+    <div id="bayes-conclusion"></div>
+    <br>These are the likely]ihoods of the prize being behind a given door. You can see that the door we are able to switch too is twice as likely as out initial choice.
+      While this may seem counterintuitive as first, the reslts become more apparent when you consider that you're playing a simpler game when you choose to stay. 
+      If that isn't convicning here is a simulation showing the reslts of staying or switching, and the analytical values we came up with through bayes theorem.<br>
+    <div id="p5-holder"></div>
+    <a href="https://github.com/KappnKrunch" target="_blank">About me.</a>
+  
+  
+
+</body></html>
