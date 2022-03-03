@@ -5,4 +5,6 @@ The Monty Hall Problem is a well known statistical problem made popular by the g
 
 Which is the better option and what is the probability?
 
+https://kappnkrunch.github.io/Monty-Carlo-Hall/
+
 
