@@ -20,28 +20,29 @@
     <meta charset="utf-8">
   </head>
   
-  <body><head2>The Monty Hall Problem</head2>
-  
-    <img src="https://jayvas.com/wp-content/uploads/2021/04/monty-hall-problem.png" alt="Let us make a deal.">
-    <p>The Monty Hall Problem is a well known statistical thought experiemnt made popular by the game show 'let's make a deal' and it's host Monty Hall. The problem states that there are three doors. Behind one there is a prize and behind the other two there is nothing of interest. You are first given a choice of the the three doors. After selecting one, Monty reveals a door you haven't selected and shows you it doesn't have the prize. You are then given the choice to choose the remaining door or stay with the one you picked. <br>  <br/> 
-        Which is the better option and what is the probability?</p>
-    <p>We can assume that we will have the same prbability regardless of which door we choose initially. For this reason we will say that we have choosen door #1. We label the case where the car actually is behind door n as Hn, and call D the case where monty opens door #3 and offers a switch to door #2.</p>
-    <div id="knowns1"></div>
-    <div id="knowns2"></div>
-    <p>Some of these values might seem arbitrary but they become more concise as you consider their origin. P(D) = 1/2 because after choosing one door, there are two left. Similarily,
-      each of the liklihoods comes from the fact that Monty wants to open a door that is neither the prize nor one you selected.</p>
-    <div id="unknowns"></div>
-    <p>We're looking for the liklihood that the car is behind door #n given that we selected the first door, monty opened door #3, and we were offered a switch to door #2.</p>
-    <div id="bayes-identities"></div>
-    <br><div id="bayes-values"></div><br>
-    <div id="bayes-conclusion"></div>
-    <br>These are the likelihoods of the prize being behind each of the doors. You can see, in each case, the option to switch produces a higher chance of picking the prize.
-      While this may seem counterintuitive as first, the reslts become more apparent when you consider that you're in fact playing a much simpler game when you choose to stay.
-      These results apply regardless of which door we choose initially i.e, it's always better to switch. In fact it's twice as likely to produce a win.
-    <br>This is a simulation showing the reslts of staying or switching, and the analytical values we came up with through bayes theorem.<br><br>
-    <div id="p5-holder"></div>
-    <a href="https://github.com/KappnKrunch" target="_blank">About me.</a>
-  
-  
+  <div id="main">
+      <body>
+        <head2>The Monty Hall Problem</head2>
 
-</body></html>
+        <img src="https://jayvas.com/wp-content/uploads/2021/04/monty-hall-problem.png" alt="Let us make a deal.">
+        <p>The Monty Hall Problem is a well known statistical thought experiemnt made popular by the game show 'let's make a deal' and it's host Monty Hall. The problem states that there are three doors. Behind one there is a prize and behind the other two there is nothing of interest. You are first given a choice of the the three doors. After selecting one, Monty reveals a door you haven't selected and shows you it doesn't have the prize. You are then given the choice to choose the remaining door or stay with the one you picked. <br>  <br/> 
+            Which is the better option and what is the probability?</p>
+        <p>We can assume that we will have the same prbability regardless of which door we choose initially. For this reason we will say that we have choosen door #1. We label the case where the car actually is behind door n as Hn, and call D the case where monty opens door #3 and offers a switch to door #2.</p>
+        <div id="knowns1"></div>
+        <div id="knowns2"></div>
+        <p>Some of these values might seem arbitrary but they become more concise as you consider their origin. P(D) = 1/2 because after choosing one door, there are two left. Similarily,
+          each of the liklihoods comes from the fact that Monty wants to open a door that is neither the prize nor one you selected.</p>
+        <div id="unknowns"></div>
+        <p>We're looking for the liklihood that the car is behind door #n given that we selected the first door, monty opened door #3, and we were offered a switch to door #2.</p>
+        <div id="bayes-identities"></div>
+        <br><div id="bayes-values"></div><br>
+        <div id="bayes-conclusion"></div>
+        <br>These are the likelihoods of the prize being behind each of the doors. You can see, in each case, the option to switch produces a higher chance of picking the prize.
+          While this may seem counterintuitive as first, the reslts become more apparent when you consider that you're in fact playing a much simpler game when you choose to stay.
+          These results apply regardless of which door we choose initially i.e, it's always better to switch. In fact it's twice as likely to produce a win.
+        <br>This is a simulation showing the reslts of staying or switching, and the analytical values we came up with through bayes theorem.<br><br>
+        <div id="p5-holder"></div>
+        <a href="https://github.com/KappnKrunch" target="_blank">About me.</a>
+      </body>
+    </div>
+</html>
