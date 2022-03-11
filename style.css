@@ -18,6 +18,7 @@ div {
 #bayes-conclusion, #p5-holder {
   position: absolute;
   margin: 0;
+  padding: 100px;
   left: 50%;
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
